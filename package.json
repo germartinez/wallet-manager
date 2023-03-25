@@ -1,0 +1,27 @@
+{
+  "name": "wallet-manager",
+  "version": "0.1.0",
+  "description": "Generate, encrypt and decrypt Ethereum mnemonics",
+  "scripts": {
+    "play": "ts-node ./scripts/config/run.ts"
+  },
+  "keywords": [
+    "Ethereum",
+    "mnemonic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germartinez/wallet-manager.git"
+  },
+  "author": "Germán Martínez (@germartinez)",
+  "license": "MIT",
+  "homepage": "https://github.com/germartinez/wallet-manager#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "ethers": "^6.2.2"
+  }
+}
