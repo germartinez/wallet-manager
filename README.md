@@ -2,6 +2,12 @@
 
 Initialize the required variables in the scripts right before running each of them.
 
+## Install
+
+```
+yarn
+```
+
 ## 1. Generate the mnemonic for given vanity address
 
 The first script can be used to generate the mnemonic for a vanity address.
