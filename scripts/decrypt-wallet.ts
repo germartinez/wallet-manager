@@ -1,7 +1,7 @@
 import { HDNodeWallet, Wallet } from 'ethers'
 
 // IT WORKS EXACTLY AS https://iancoleman.io/bip39/
-// IT ALLOWS TO DECRYPT A ENCRYPTED WALLET JSON FILE
+// IT ALLOWS TO DECRYPT AN ENCRYPTED WALLET JSON FILE
 
 // 1. Initialize the encrypted wallet JSON file that will be decrypted.
 const encryptedWalletJson = {}
