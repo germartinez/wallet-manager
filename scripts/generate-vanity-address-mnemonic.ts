@@ -51,8 +51,11 @@ async function generateVanityAddress() {
       
       console.log('VANITY ADDRESS GENERATED:')
       console.log('------------------------------------------------------------------------------------------------------------------------------------------------')
-      console.log(`address     ${wallet.address}`)
       console.log(`mnemonic    ${wallet.mnemonic.phrase}`)
+      console.log(`path        ${wallet.path}`)
+      console.log(`address     ${wallet.address}`)
+      console.log(`publicKey   ${wallet.publicKey}`)
+      console.log(`privateKey  ${wallet.privateKey}`)
       console.log('------------------------------------------------------------------------------------------------------------------------------------------------\n')
       break
     }
