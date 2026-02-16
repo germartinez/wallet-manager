@@ -23,5 +23,6 @@
   },
   "dependencies": {
     "ethers": "^6.2.2"
-  }
+  },
+  "packageManager": "pnpm@10.28.1"
 }

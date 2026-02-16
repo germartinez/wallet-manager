@@ -15,7 +15,7 @@ const isCaseSensitive = true
 // 4. Initialize the frecuency to update the console output with the current number of trials.
 const outputInterval = 1000
 
-async function generateVanityAddress() {  
+async function generateVanityAddress() {
   let wallet: HDNodeWallet
 
   if (!prefix.startsWith('0x')) {
